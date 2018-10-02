@@ -22,8 +22,10 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		DD302898213BCF7100C9EFBA /* CooeyA2WeighingScale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD302896213BCF7100C9EFBA /* CooeyA2WeighingScale.framework */; };
-		DD302899213BCF7100C9EFBA /* VoiceBPLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD302897213BCF7100C9EFBA /* VoiceBPLibrary.framework */; };
+		DD987472216315CF003BB48E /* CooeyA2WeighingScale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF78658213BCDA80068BE1F /* CooeyA2WeighingScale.framework */; };
+		DD987473216315CF003BB48E /* CooeyA2WeighingScale.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDF78658213BCDA80068BE1F /* CooeyA2WeighingScale.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD987474216315CF003BB48E /* VoiceBPLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA3468920F3213A00F1F65B /* VoiceBPLibrary.framework */; };
+		DD987475216315CF003BB48E /* VoiceBPLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDA3468920F3213A00F1F65B /* VoiceBPLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DDF78644213BBEBD0068BE1F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3BB8B9213679510017548C /* MediaPlayer.framework */; };
 		DDF78646213BBEC30068BE1F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF78645213BBEC30068BE1F /* AVFoundation.framework */; };
 		DDF78648213BBEFD0068BE1F /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
@@ -289,9 +291,9 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
-		DD302894213BCF4600C9EFBA /* PBXContainerItemProxy */ = {
+		DD987470216315B5003BB48E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DD302890213BCF4600C9EFBA /* RNCooey.xcodeproj */;
+			containerPortal = DD98746C216315B5003BB48E /* RNCooey.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNCooey;
@@ -305,6 +307,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				DD987473216315CF003BB48E /* CooeyA2WeighingScale.framework in Embed Frameworks */,
+				DD987475216315CF003BB48E /* VoiceBPLibrary.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,10 +339,8 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		DD302890213BCF4600C9EFBA /* RNCooey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCooey.xcodeproj; path = ../../ios/RNCooey.xcodeproj; sourceTree = "<group>"; };
-		DD302896213BCF7100C9EFBA /* CooeyA2WeighingScale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CooeyA2WeighingScale.framework; path = ../../ios/CooeyA2WeighingScale.framework; sourceTree = "<group>"; };
-		DD302897213BCF7100C9EFBA /* VoiceBPLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VoiceBPLibrary.framework; path = ../../ios/VoiceBPLibrary.framework; sourceTree = "<group>"; };
 		DD3BB8B9213679510017548C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DD98746C216315B5003BB48E /* RNCooey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCooey.xcodeproj; path = "../node_modules/react-native-cooey/ios/RNCooey.xcodeproj"; sourceTree = "<group>"; };
 		DDA3468920F3213A00F1F65B /* VoiceBPLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VoiceBPLibrary.framework; sourceTree = "<group>"; };
 		DDF78645213BBEC30068BE1F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		DDF78658213BCDA80068BE1F /* CooeyA2WeighingScale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CooeyA2WeighingScale.framework; sourceTree = "<group>"; };
@@ -350,9 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDF78646213BBEC30068BE1F /* AVFoundation.framework in Frameworks */,
+				DD987474216315CF003BB48E /* VoiceBPLibrary.framework in Frameworks */,
 				DDF78644213BBEBD0068BE1F /* MediaPlayer.framework in Frameworks */,
-				DD302898213BCF7100C9EFBA /* CooeyA2WeighingScale.framework in Frameworks */,
-				DD302899213BCF7100C9EFBA /* VoiceBPLibrary.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				DDF78648213BBEFD0068BE1F /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -364,6 +365,7 @@
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
+				DD987472216315CF003BB48E /* CooeyA2WeighingScale.framework in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,7 +520,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				DD302890213BCF4600C9EFBA /* RNCooey.xcodeproj */,
+				DD98746C216315B5003BB48E /* RNCooey.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -547,8 +549,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				DD302896213BCF7100C9EFBA /* CooeyA2WeighingScale.framework */,
-				DD302897213BCF7100C9EFBA /* VoiceBPLibrary.framework */,
 				13B07FAE1A68108700A75B9A /* cooeyExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* cooeyExampleTests */,
@@ -587,10 +587,10 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		DD302891213BCF4600C9EFBA /* Products */ = {
+		DD98746D216315B5003BB48E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD302895213BCF4600C9EFBA /* libRNCooey.a */,
+				DD987471216315B5003BB48E /* libRNCooey.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -692,8 +692,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = DD302891213BCF4600C9EFBA /* Products */;
-					ProjectRef = DD302890213BCF4600C9EFBA /* RNCooey.xcodeproj */;
+					ProductGroup = DD98746D216315B5003BB48E /* Products */;
+					ProjectRef = DD98746C216315B5003BB48E /* RNCooey.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -963,11 +963,11 @@
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		DD302895213BCF4600C9EFBA /* libRNCooey.a */ = {
+		DD987471216315B5003BB48E /* libRNCooey.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNCooey.a;
-			remoteRef = DD302894213BCF4600C9EFBA /* PBXContainerItemProxy */;
+			remoteRef = DD987470216315B5003BB48E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
